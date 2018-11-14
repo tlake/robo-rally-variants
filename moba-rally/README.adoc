@@ -5,7 +5,7 @@
 _(...or **Defense of the Robots** or **League of Robots** or **Robots of the Storm** or **Robots of Newearth** or **Call of Robots**...)_
 
 Tanner Lake +
-`v0.1.4`
+`v0.1.5`
 
 toc::[]
 
@@ -122,7 +122,7 @@ Towers are tall, so walls and other robots don't block a tower's line of sight.
 
 Towers have 10 hit points, and count as impassable terrain that blocks weapons fire and line of sight until destroyed.
 
-When destroyed, a tower deals 5 damage to its friendly base, and each living enemy robot is awarded an option card.
+When destroyed, a tower deals 5 damage to its friendly base, and the enemy team draws one option card and chooses a robot on their team to receive it.
 
 ```
 tower threat pattern:
