@@ -3,7 +3,7 @@
 = PAC-MAN FLAVORED DEATHMATCH
 
 Tanner Lake +
-`v0.1.1`
+`v0.1.2`
 
 toc::[]
 
@@ -76,6 +76,6 @@ Fruit is obtained just by moving onto or across the fruit's square; a robot does
 
 
 == Ghosts
-A robot that has run out of lives becomes a ghost! Ghosts use the center four squares (yes, the fruit squares) to spawn. A ghostbot cannot obtain fruit, and taking any amount of damage will kill it. If a ghostbot pushes a non-Pac-Mode robot, that robot instantly dies and it counts as a kill for the ghostbot. Ghostbots have a laser that functions as normal, and they deal no damage to other ghostbots.
+A robot that has run out of lives becomes a ghostbot! Ghostbots use the center four squares (yes, the fruit squares) to spawn, and are dealt hands of five cards. A ghostbot cannot obtain fruit, and taking any amount of damage will kill it. If a ghostbot pushes a non-Pac-Mode robot, that robot instantly dies and it counts as a kill for the ghostbot. Ghostbots have a laser that functions as normal, and they deal no damage to other ghostbots.
 
-If a ghost robot kills another robot, the ghostbot immediately gains a life token, is removed from the board, and enters the respawn queue as a regular robot.
+If a ghostbot kills another robot, the ghostbot immediately gains a life token, is removed from the board, and enters the respawn queue as a regular robot.
